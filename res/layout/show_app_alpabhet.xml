@@ -1139,6 +1139,6 @@
         android:layout_alignParentBottom="true"
         android:layout_gravity="bottom|center"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-5933955011278679/8159924548"/>
+        ads:adUnitId="ca-app-pub-5"/>
 
 </RelativeLayout>
