@@ -1,5 +1,7 @@
 # lead-launcher
-simple window style launcher <a href="https://play.google.com/store/apps/details?id=com.leadweblife.leadlauncher">Download APK</a>
+simple window style launcher <br/>
+<a href="https://play.google.com/store/apps/details?id=com.leadweblife.leadlauncher">
+<img border="0" height="96" src="https://4.bp.blogspot.com/-0K_0QZT_O4Q/WBwW4setDnI/AAAAAAAAEWI/gfTiNu_60P4fiO4UVJcAbbpcY-n-KfXMACLcB/s320/download.png" width="320" /></a>
 
 show the menu in winodws style , very good to learn to build Launcher
 <table>
