@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mrt"
+    >
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="50dp"
+    >
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/txtnum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="#"
+                android:gravity="left|center_vertical"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"
+                android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtnum"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:id="@+id/SplitLine_hornum"
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewNum"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/txta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="A"
+        android:gravity="left|center_vertical"
+        android:textColor="#081130"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <GridView
+        android:id="@+id/gridViewA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:numColumns="4"
+        android:layout_marginLeft="50dp"
+        android:layout_alignLeft="@+id/txta"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8px"
+        >
+    </GridView>
+
+
+    <View
+        android:id="@+id/SplitLine_hor1"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="@color/colorBlack"
+        android:layout_below="@+id/gridViewA"
+        android:layout_marginBottom="5dp"
+        />
+</RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="B"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"
+                android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtb"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:id="@+id/SplitLine_hor2"
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewB"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="C"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"
+                android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtc"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:id="@+id/SplitLine_hor3"
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewC"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="D"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"
+                android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtd"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:id="@+id/SplitLine_hor4"
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewD"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="E"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txte"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:id="@+id/SplitLine_hor5"
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewE"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="F"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtf"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:id="@+id/SplitLine_hor6"
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewF"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="G"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtg"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:id="@+id/SplitLine_hor7"
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewG"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="H"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txth"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewH"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="I"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txti"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewI"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="J"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewJ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtj"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewJ"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="K"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtk"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewK"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="L"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtl"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewL"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="M"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtm"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewM"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="N"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtn"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewN"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="O"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txto"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewO"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="P"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtp"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewP"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="Q"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewQ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtq"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewQ"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="R"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtr"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewR"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="S"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txts"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewS"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="T"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtt"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewT"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="U"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtu"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewU"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="V"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtv"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewV"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="W"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtw"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewW"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="X"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtx"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewX"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="Y"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txty"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewY"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="Z"
+                android:textColor="#081130"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <GridView
+                android:id="@+id/gridViewZ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:numColumns="4"         android:layout_marginLeft="50dp"
+                android:layout_alignLeft="@+id/txtz"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="8px"
+                >
+            </GridView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/colorBlack"
+                android:layout_below="@+id/gridViewZ"
+                android:layout_marginBottom="5dp"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|center"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5933955011278679/8159924548"/>
+
+</RelativeLayout>

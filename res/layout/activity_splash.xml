@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/ic_launcher_logo"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/imageView2"
+        android:gravity="center"
+        android:text="Welcome to Lead Launcher.\nEasy and Fast LightWeight Launcher\n\nChoose Lead Launcher in Next Page and Tap on Always\n Enjoy"
+        />
+
+
+
+    <Button
+        android:id="@+id/btstart"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_blue_bright"
+        android:textSize="16dp"
+        android:text="Start"
+        />
+</RelativeLayout>

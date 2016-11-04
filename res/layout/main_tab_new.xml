@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/liid"
+    >
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        >
+
+
+
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/ibdate"
+                android:layout_weight="0.34"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:background="@android:color/holo_purple"
+                android:src="@drawable/cal"
+                />
+
+<!--
+                    <com.github.lzyzsd.circleprogress.DonutProgress
+                        android:id="@+id/donut_progress"
+                        android:layout_weight="0.2"
+                        android:layout_width="0dp"
+                        android:layout_height="75dp"
+                        android:clickable="true"
+                        android:background="@color/colorBlack"
+                        />
+
+                    <ImageButton
+                        android:id="@+id/ibappsetting"
+                        android:layout_weight="0.2"
+                        android:layout_width="0dp"
+                        android:layout_height="75dp"
+                        android:background="@android:color/holo_orange_dark"
+                        android:src="@drawable/appset"
+                        />
+-->
+
+            <ImageButton
+                android:id="@+id/ibsocial"
+                android:layout_weight="0.33"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:background="@color/colorPrimaryDark"
+                android:src="@drawable/sociallink"
+                />
+
+            <ImageButton
+                android:id="@+id/ibgame"
+                android:layout_weight="0.33"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:background="@android:color/holo_green_light"
+                android:src="@drawable/game"
+                />
+
+        </TableRow>
+
+        <TableRow
+
+            >
+
+            <ImageButton
+                android:id="@+id/ibcall"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:background="@android:color/holo_blue_bright"
+                android:src="@drawable/lead_phone"
+
+                />
+
+
+
+            <TableLayout
+                android:layout_weight="0.7"
+                >
+
+
+                    <ImageButton
+                        android:id="@+id/ibcontact"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:background="@android:color/holo_blue_dark"
+                        android:src="@drawable/lead_contact"
+
+                        />
+            </TableLayout>
+
+        </TableRow>
+
+
+
+        <TableRow
+
+            >
+
+            <ImageButton
+                android:id="@+id/ibmsg"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:background="@android:color/holo_green_light"
+                android:src="@drawable/lead_msg"
+                />
+
+            <TableLayout
+                android:layout_weight="0.7"
+                >
+                <ImageButton
+                    android:id="@+id/ibplaystore"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+
+                    android:background="@android:color/holo_orange_light"
+                    android:src="@drawable/lead_gplay"
+                    />
+
+                <ImageButton
+                    android:id="@+id/ibemail"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:background="@color/colorAccent"
+                    android:src="@drawable/lead_email"
+                    />
+
+            </TableLayout>
+
+
+
+
+
+        </TableRow>
+
+
+
+
+        <!--Row 3 -->
+
+
+        <TableRow
+
+            >
+
+            <ImageButton
+                android:id="@+id/ibcamera"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:background="@android:color/holo_blue_dark"
+                android:src="@drawable/lead_camera"
+                />
+
+
+            <TableLayout
+                android:layout_weight="0.7"
+                >
+
+                <TableRow>
+                <ImageButton
+                    android:id="@+id/ibgallery"
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:background="@android:color/holo_purple"
+                    android:src="@drawable/lead_gallery"
+                    />
+
+                <ImageButton
+                    android:id="@+id/ibfile"
+                    android:layout_weight="0.4"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:background="@android:color/holo_orange_dark"
+                    android:src="@drawable/lead_file"
+                    />
+                </TableRow>
+            </TableLayout>
+
+
+        </TableRow>
+
+
+
+
+        <!--Row 3 -->
+
+
+        <TableRow
+
+            >
+
+            <ImageButton
+                android:id="@+id/ibmusic"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:background="@android:color/holo_blue_bright"
+                android:src="@drawable/lead_music"
+                />
+
+            <TableLayout
+                android:layout_weight="0.7"
+                >
+
+            <ImageButton
+                android:id="@+id/ibvideo"
+                android:layout_weight="0.7"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:background="@color/colorAccent"
+                android:src="@drawable/lead_video"
+                />
+</TableLayout>
+
+
+        </TableRow>
+
+
+
+
+
+
+        <TableRow
+
+            >
+
+            <ImageButton
+                android:id="@+id/ibbrowser"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:background="@android:color/holo_blue_dark"
+                android:src="@drawable/lead_browser"
+                />
+            <TableLayout
+                android:layout_weight="0.7"
+                >
+                <TableRow>
+
+            <ImageButton
+                android:id="@+id/ibtorch"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:background="@android:color/holo_purple"
+                android:src="@drawable/picoff"
+                />
+
+            <ImageButton
+                android:id="@+id/ibsetting"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:background="@android:color/holo_orange_dark"
+                android:src="@drawable/lead_setting"
+                />
+                </TableRow>
+</TableLayout>
+
+        </TableRow>
+
+
+
+
+
+
+
+    </TableLayout>
+
+
+</ScrollView>
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</LinearLayout>

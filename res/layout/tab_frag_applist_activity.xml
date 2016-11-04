@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mrt">
+
+
+
+    <!--<GridView-->
+        <!--android:id="@+id/gridView1"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:columnWidth="90dp"-->
+        <!--android:numColumns="auto_fit"-->
+        <!--android:verticalSpacing="20dp"-->
+        <!--android:horizontalSpacing="20dp"-->
+        <!--android:stretchMode="columnWidth"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:layout_marginBottom="50dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+
+        <!-->-->
+    <!--</GridView>-->
+
+
+    <ListView
+        android:id="@+id/gridView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="90dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="20dp"
+        android:horizontalSpacing="20dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8px"
+        >
+    </ListView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+
+        ads:adUnitId="ca-app-pub-5933955011278679/8159924548">
+    </com.google.android.gms.ads.AdView>
+
+
+
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/container"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:padding="20dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+
+        <!-->-->
+
+
+
+        <!--<EditText-->
+            <!--android:id="@+id/messageEdit"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+
+            <!--android:autoText="true"-->
+            <!--android:inputType="text"-->
+            <!--android:maxLines="5"-->
+            <!--android:maxLength="1000"-->
+            <!--android:minLines="3"-->
+            <!--android:hint="search App" />-->
+
+
+    <!--</RelativeLayout>-->
+
+
+</RelativeLayout>
